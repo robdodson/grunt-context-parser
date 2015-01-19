@@ -35,7 +35,8 @@ module.exports = function (grunt) {
     context_parser: {
       default: {
         options: {
-          merge: true
+          merge: true,
+          config: 'test/fixtures/config.json'
         },
         src: 'test/fixtures',
         dest: 'test/tmp'
