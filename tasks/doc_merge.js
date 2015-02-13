@@ -2,8 +2,8 @@
 
 module.exports = function (grunt) {
 
-  grunt.registerMultiTask('context_parser', 'Run elements through context-free-parser', function () {
-    var generate = require('context-parser');
+  grunt.registerMultiTask('doc_merge', 'Run elements through doc-merge', function () {
+    var generate = require('doc-merge');
     var options = this.options({
       config: null,
       merge: false

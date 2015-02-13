@@ -1,7 +1,7 @@
 {
-  "name": "grunt-context-parser",
-  "version": "0.0.1",
-  "description": "Run elements through context-free-parser",
+  "name": "grunt-doc-merge",
+  "version": "1.0.0",
+  "description": "Run elements through doc-merge",
   "repository": "",
   "author": {
     "name": "Rob Dodson",
@@ -18,6 +18,9 @@
   "license": {
     "type": "BSD-3-Clause",
     "url": "http://polymer.github.io/LICENSE.txt"
+  },
+  "dependencies": {
+    "doc-merge": "^1.0.0"
   },
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",

@@ -32,7 +32,7 @@ module.exports = function (grunt) {
     },
 
     // Configuration to be run (and then tested).
-    context_parser: {
+    doc_merge: {
       default: {
         options: {
           merge: true,
