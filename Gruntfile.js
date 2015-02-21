@@ -36,7 +36,7 @@ module.exports = function (grunt) {
       default: {
         options: {
           merge: true,
-          config: 'test/fixtures/config.json'
+          prefix: ['core', 'paper', 'seed', 'x']
         },
         src: 'test/fixtures',
         dest: 'test/tmp'

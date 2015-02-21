@@ -6,7 +6,8 @@ module.exports = function (grunt) {
     var generate = require('doc-merge');
     var options = this.options({
       config: null,
-      merge: false
+      merge: false,
+      prefix: null
     });
 
     grunt.file.mkdir(this.data.dest);
